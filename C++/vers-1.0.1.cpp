@@ -8,9 +8,9 @@
 
 using json = nlohmann::json;
 
-std::string UNIVERSE_ID = "7639730222";
-std::string GAME_URL = "https://www.roblox.com/games/100339443227710/Sky";
-std::string DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1401037060722393231/jKvPKzHPWvKg78MdJ58ySb99Pgyq0X-3HSE2YSZRA3yJSw4i61YPM4F4lB8mIevqvuHH";
+std::string UNIVERSE_ID = "put webhook here";
+std::string GAME_URL = "put webhook here";
+std::string DISCORD_WEBHOOK = "put webhook here";
 
 std::string lastMessageId = "";
 std::string previousState = "";
