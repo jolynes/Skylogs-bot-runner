@@ -1,11 +1,11 @@
 import requests
 import time
 
-print("🟢 Roblox Sky Join Notifier is running!")
+print("🟢 Roblox Sky Join Notifier is running!") # change to whatever you what
 
-UNIVERSE_ID = "7639730222"
-GAME_URL = "https://www.roblox.com/games/100339443227710/Sky"
-DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1401037060722393231/jKvPKzHPWvKg78MdJ58ySb99Pgyq0X-3HSE2YSZRA3yJSw4i61YPM4F4lB8mIevqvuHH"
+UNIVERSE_ID = "put the universe/game id here"
+GAME_URL = "put the game url here"
+DISCORD_WEBHOOK = "put webhook"
 
 last_message_id = None
 previous_state = None  # "online" or "offline""
