@@ -1,10 +1,10 @@
 const axios = require('axios');
 
-console.log("🟢 Roblox Sky Join Notifier is running!");
+console.log("🟢 Roblox Sky Join Notifier is running!"); // change to wtv u want
 
-const UNIVERSE_ID = "7639730222";
-const GAME_URL = "https://www.roblox.com/games/100339443227710/Sky";
-const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1401037060722393231/jKvPKzHPWvKg78MdJ58ySb99Pgyq0X-3HSE2YSZRA3yJSw4i61YPM4F4lB8mIevqvuHH";
+const UNIVERSE_ID = "put universe-game id here";
+const GAME_URL = "put game url here";
+const DISCORD_WEBHOOK = "put webhook here";
 
 let lastMessageId = null;
 let previousState = null;
